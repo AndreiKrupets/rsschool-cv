@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV HTML</title>
+</head>
+<body>
+<header>
+    <h1 id="name">ANDREI KRUPETS</h1>
+    <img src="images/photo1.jpeg">
+</header>
+<nav>
+    <ul>
+        <li><a href="#contacts">My contacts</a></li>
+        <li><a href="#summary">Summary</a></li>
+        <li><a href="#skills"> My skills</a></li>
+        <li><a href="#code_examples">Code examples</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#english">English</a></li>
+    </ul>
+</nav>
+<section id="contacts">
+    <h2>Contacts</h2>
+    <ul>
+        <li><span class="contacts">mobile:</span> +37529-504-97-77 (also Viber and Telegram)</li>
+        <li><span class="contacts">Skype:</span> krupezza</li>
+        <li><span class="contacts">E-mail:</span> krupezza2@gmail.com(primary); aikey@mail.ru</li>
+    </ul>
+</section>
+<section id="summary">
+    <h2>Summary</h2>
+    <p>I graduated chemical faculty and I have never programmed before the end of 2019. This field forever was interesting for me, but I have no PS when I was a schoolboy and student. I liked and likes chemistry and natural Science. In the fall of the
+ 2019 I decided to study programming at last. I chose Python. Than when I became study Python web-framework Django, I took attention on HTML and CSS.
+ This branch interested me and than I opened for myself JavaScript and its work with browsers. My friend from Python-courses recommended me The Rolling Scopes School. Now I continue to study Front-end technologies and dream to find the job in IT.</p>
+</section>
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Python
+            <ul>
+                <li>Django</li>
+                <li>Pandas(basic)</li>
+            </ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript(beginner)</li>
+        <li>Git</li>
+    </ul>
+</section>
+<section id="code_examples">
+    <h2>Code examples</h2>
+    <pre>'''Python'''
+    import requests
+    url = 'tut.by'
+    r = requests.get(url)
+    print('Status code:', r.status.code)
+    responce_dict = r.json()
+    print((responce_dict.keys()))
+    </pre>
+</section>
+<section id="experience">
+    <h2>Experience</h2>
+    <p>Experienced specialist in Chemistry, Pharmaceuticals, with academic background in Scientific Computing
+Proven track record in negotiations with customers, partners and government agencies
+Collaborative team player, constantly striving to learn, self-motivated, dependable and reliable, strong analytical skills, ability to work and solve problems with sense of humor even in a deadline-oriented environment.</p>
+</section>
+<section id="education">
+    <h2>Education</h2>
+    <ul>
+        <li>Chemical faculty of the Belarusian State University (2001-2006)</li>
+        <li>Czech language (sep 2018 - jun 2019), A2-B1 level</li>
+        <li>Python. Basic level ( feb 2020)</li>
+        <li>Python. Professinal level ( jul 2020)
+            <ul>
+                <li>Django</li>
+                <li>Linux(basic)</li>
+                <li>Git</li>
+                <li>Docker(basic)</li>
+                <li>Nginx(basic)</li>
+                <li>SQL(basic)</li>
+            </ul>
+    </ul>
+</section>
+<section id="english">
+    <h2>English</h2>
+    <p>Passed as A2 level when entered to courses, but I hope I have B1. Now I read Eloquent JavaScript in English.
+        It helps me to study professional grammar and extends my vocabulary. Also I watch programming youtube movies in English.</p>
+</section>
+</body>
