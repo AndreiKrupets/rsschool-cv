@@ -7,121 +7,96 @@
     <title>My CV HTML</title>
 </head>
 <body>
-<header>
-    <h1 id="name">ANDREI KRUPETS</h1>
-    <div id="div_name" class="block">
-            <nav id="nav">
-                <ul>
-                    <li><a href="#contacts">
-                        <div class="div-name-item">My contacts</div>
-                        </a>
-                    </li>
-                    <li><a href="#summary">
-                        <div class="div-name-item">Summary</div>
-                        </a>
-                    </li>
-                    <li><a href="#skills">
-                        <div class="div-name-item">My skills</div>
-                        </a>
-                    </li>
-                    <li><a href="#code_examples">
-                            <div class="div-name-item">Code examples</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#experience">
-                            <div class="div-name-item">Experience</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#education">
-                            <div class="div-name-item">Education</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#english">
-                            <div class="div-name-item">English</div>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-            <div id="photo">
-                <img src="images/photo1.jpeg" alt="My photo">
+    <div class="wrapper">
+    <header>
+        <div class="header">
+            <h1 class="header_name">ANDREI KRUPETS</h1>
+            <h2>Junior Front-end developer</h2>
+        </div>
+    </header>
+    <aside>
+        <div class="photo">
+            <img src="images/photo1.jpeg" alt="my_photo">
+        </div>
+        <section class="aside_contacts">
+            <h2 class="aside_item_name">CONTACTS</h2>
+            <div class="contact_item_box">
+                <h3>PHONE AND VIBER</h3>
+                <p>+375-29-504-97-77</p>
             </div>
-    </div>
-</header>
-
-<main>
-<section id="contacts" class="block">
-    <h2>Contacts</h2>
-    <ul>
-        <li><img class="symbol" src="images/mobile.png"><strong>Mobile:</strong> +37529-504-97-77 (also
-            <img class="symbol" src="images/viber.png">Viber and
-            <img class="symbol" src="images/telegram.png">Telegram)</li>
-        <li><img class="symbol" src="images/skype.jpg">
-            <strong>Skype:</strong> krupezza</li>
-        <li><img class="symbol" src="images/e-mail.png">
-            <strong>E-mail:</strong> krupezza2@gmail.com(primary); aikey@mail.ru</li>
-    </ul>
-</section>
-<section id="summary" class="block">
-    <h2>Summary</h2>
-    <p>I graduated chemical faculty and I have never programmed before the end of 2019. This field forever was interesting for me, but I have no PS when I was a schoolboy and student. I liked and likes chemistry and natural Science. In the fall of the
+            <div class="contact_item_box">
+                <h3>E-MAIL</h3>
+                <p>aikey@mail.ru</p>
+                <p>krupezza2@gmail.com</p>
+            </div>
+            <div class="contact_item_box">
+                <h3>SKYPE</h3>
+                <p>krupezza</p>
+            </div>
+            <div class="contact_item_box">
+                <h3>LOCATION</h3>
+                <p>Maladzechna, Minsk, Republic of Belarus</p>
+            </div>
+        </section>
+        <section class="aside_skills">
+            <h2 class="aside_item_name">SKILLS</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+                <li>Git</li>
+                <li>Python</li>
+                <li>Django</li>
+            </ul>
+        </section>
+        <section class="aside_languages">
+            <h2 class="aside_item_name">LANGUAGES</h2>
+            <ul>
+                <li>Belarussian, native</li>
+                <li>Russian</li>
+                <li>English, A2/B1</li>
+                <li>Čeština A2/B1</li>
+            </ul>
+        </section>
+    </aside>
+    <main>
+        <section class="summary">
+            <h2 class="aside_item_name">
+                SUMMARY
+            </h2>
+            <p>I graduated chemical faculty and I have never programmed before the end of 2019. This field forever was interesting for me, but I have no PS when I was a schoolboy and student. I liked and likes chemistry and natural Science. In the fall of the
  2019 I decided to study programming at last. I chose Python. Than when I became study Python web-framework Django, I took attention on HTML and CSS.
  This branch interested me and than I opened for myself JavaScript and its work with browsers. My friend from Python-courses recommended me The Rolling Scopes School. Now I continue to study Front-end technologies and dream to find the job in IT.</p>
-</section>
-<section id="skills" class="block">
-    <h2>Skills</h2>
-    <ul>
-        <li>Python
+        </section>
+        <section class="experience">
+            <h2>EXPERIENCE</h2>
+            <p>Experienced specialist in Chemistry, Pharmaceuticals, with academic background in Scientific Computing
+        Proven track record in negotiations with customers, partners and government agencies
+        Collaborative team player, constantly striving to learn, self-motivated, dependable and reliable, strong analytical skills, ability to work and solve problems with sense of humor even in a deadline-oriented environment.</p>
+        </section>
+        <section class="education" >
+            <h2>EDUCATION</h2>
             <ul>
-                <li>Django</li>
-                <li>Pandas(basic)</li>
+                <li>Chemical faculty of the Belarusian State University (2001-2006)</li>
+                <li>Czech language (sep 2018 - jun 2019), A2-B1 level</li>
+                <li>Python. Basic level ( feb 2020)</li>
+                <li>Python. Professinal level ( jul 2020)
+                    <ul>
+                        <li>Django</li>
+                        <li>Linux(basic)</li>
+                        <li>Git</li>
+                        <li>Docker(basic)</li>
+                        <li>Nginx(basic)</li>
+                        <li>SQL(basic)</li>
+                    </ul>
             </ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript(beginner)</li>
-        <li>Git</li>
-    </ul>
-</section>
-<section id="code_examples" class="block">
-    <h2>Code examples</h2>
-    <pre>'''Python'''
-    import requests
-    url = 'tut.by'
-    r = requests.get(url)
-    print('Status code:', r.status.code)
-    responce_dict = r.json()
-    print((responce_dict.keys()))
-    </pre>
-</section>
-<section id="experience" class="block">
-    <h2>Experience</h2>
-    <p>Experienced specialist in Chemistry, Pharmaceuticals, with academic background in Scientific Computing
-Proven track record in negotiations with customers, partners and government agencies
-Collaborative team player, constantly striving to learn, self-motivated, dependable and reliable, strong analytical skills, ability to work and solve problems with sense of humor even in a deadline-oriented environment.</p>
-</section>
-<section id="education" class="block">
-    <h2>Education</h2>
-    <ul>
-        <li>Chemical faculty of the Belarusian State University (2001-2006)</li>
-        <li>Czech language (sep 2018 - jun 2019), A2-B1 level</li>
-        <li>Python. Basic level ( feb 2020)</li>
-        <li>Python. Professinal level ( jul 2020)
-            <ul>
-                <li>Django</li>
-                <li>Linux(basic)</li>
-                <li>Git</li>
-                <li>Docker(basic)</li>
-                <li>Nginx(basic)</li>
-                <li>SQL(basic)</li>
-            </ul>
-    </ul>
-</section>
-<section id="english" class="block">
-    <h2>English</h2>
-    <p>Passed as A2 level when entered to courses, but I hope I have B1. Now I read 'Eloquent JavaScript' book in English.
-        It helps me to study professional grammar and extends my vocabulary. Also I watch programming youtube movies in English.</p>
-</section>
-</main>
+        </section>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+
+        </div>
+    </footer>
+</div>
 </body>
